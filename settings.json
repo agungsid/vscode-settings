@@ -1,0 +1,52 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    
+    "window.zoomLevel": 0,
+    
+    "php.suggest.basic": false,
+
+    "html.suggest.html5": true,
+    "html.autoClosingTags": true,
+    "html.validate.scripts": true,
+    "html.validate.styles": true,
+    "[html]": {
+        "editor.foldingStrategy": "indentation"
+    },
+
+    // GO config
+    "go.buildOnSave": "off",
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+         "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "diagnostics": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true,
+        "findReferences": true,
+        "rename": true,
+        "workspaceSymbols": true,
+        "documentSymbols": true
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goimports",
+    "go.gotoSymbol.includeGoroot": true,
+    "go.inferGopath": false,
+    "go.gotoSymbol.includeImports": true,
+    "go.testOnSave": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
